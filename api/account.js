@@ -11,7 +11,7 @@ $("document").ready(()=>{
         })
         .then(res=>{return res.json()})
         .then(data=>{
-            $("#name").text("hello " + data.firstname + " " + data.lastname);
+            $("#name").text("Hello " + data.firstname + " " + data.lastname +"!");
         })
         .catch(error=>console.log("error on authentication: " + error));
     };
