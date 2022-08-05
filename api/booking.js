@@ -44,7 +44,7 @@ $("document").ready(()=>{
                 bookingid.innerText = "booking id: " + data[i].booking_id;
                 billid.innerText = "bill id: " + data[i].bill_id;
                 roomtype.innerText = "room type: " + data[i].room_type_name;
-                price.innerText = "price: " + data[i].room_price;
+                price.innerText = "price: $ " + data[i].room_price;
                 checkin.innerText = "check in date: " + data[i].checkin_date;
                 checkout.innerText = "check out date: " + data[i].checkout_date;
                 cancel.setAttribute("class", "cancel");
