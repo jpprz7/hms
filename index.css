@@ -454,3 +454,8 @@
     text-align: center;
   }
 }
+#checkInput{
+  display: none;
+  margin: 5px;
+  color: red;
+}
